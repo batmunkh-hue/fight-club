@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fight Club - The Movie</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#trailer">Trailer</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="overview">
+        <h1>Fight Club (1999)</h1>
+        <p>A story about a disillusioned man who forms an underground fight club.</p>
+        <button onclick="scrollToSection('#trailer')">Watch the Trailer</button>
+    </section>
+
+    <!-- Movie Overview -->
+    <section class="overview">
+        <h2>Movie Overview</h2>
+        <p>Fight Club, directed by David Fincher, is a cult film about the dark underbelly of consumerism and the human desire for rebellion. The film stars Brad Pitt, Edward Norton, and Helena Bonham Carter.</p>
+    </section>
+
+    <!-- Image Gallery -->
+    <section class="gallery" id="gallery">
+        <h2>Gallery</h2>
+        <div class="image-grid">
+            <img src="img1.jpg" alt="Fight Club Scene 1">
+            <img src="img2.jpg" alt="Fight Club Scene 2">
+            <img src="img3.jpg" alt="Fight Club Scene 3">
+            <img src="img4.jpg" alt="Fight Club Scene 4">
+        </div>
+    </section>
+
+    <!-- Trailer Section -->
+    <section class="trailer" id="trailer">
+        <h2>Watch the Trailer</h2>
+        <iframe src="https://www.youtube.com/embed/P5iGbFDdyuk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews" id="reviews">
+        <h2>Reviews</h2>
+        <div class="review-slider">
+            <div class="review-card">
+                <p>"A brilliant portrayal of the human psyche. Fight Club is both brutal and beautiful."</p>
+                <footer>- The Movie Database</footer>
+            </div>
+            <div class="review-card">
+                <p>"Fight Club challenges the notion of masculinity and identity in modern society."</p>
+                <footer>- Film Critic X</footer>
+            </div>
+            <!-- More reviews can be added here -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Fight Club Movie Tribute. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
